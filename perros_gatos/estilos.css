@@ -1,0 +1,128 @@
+header,footer{
+background-color: black;
+color:white;
+}
+.principal{
+	display: inline-block;	
+	background-image:url(imagenes/perros.jpeg); 
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 110px;
+	height: 260px;
+}
+header{
+	display: table;
+	width: 100%;
+}
+.titulo{
+	display: table-cell;
+	padding: 20px; 
+}
+.menu{
+	vertical-align: middle;
+	text-align: right;
+	display: table-cell;
+}
+.menu li{
+	padding-left: 10px;
+	display: inline;
+	list-style-type: none;
+}
+.menu li:hover{
+	background: #00FFFF;
+}
+
+.menu a{
+	text-decoration: none;
+	color: grey;
+}
+footer{
+	color: grey;
+	padding: 1px;
+	position:relative;
+	bottom:0;
+	display: block;
+	width: 100%;
+
+}
+.titulo_article h1{
+	font-size: 80px;
+	color: #0080FF;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 30px;
+}
+.titulo_article{
+	text-align: center;
+}
+.menu_article{
+	text-align: center;
+}
+.menu_article a{
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	background-color: #0404B4;
+	padding: 10px 50px;
+}
+
+.titulo_gatoype{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+.imagen_gatoype h5{
+	color: grey;
+	display: inline;
+	position: relative;
+	top: 20px;
+	right: 210px;
+}
+.imagen_gatoype{
+	display: inline;
+	position: relative;
+	bottom: 40px;
+}
+.verpag{
+	color:grey;
+	position: relative;
+}
+.perro{
+	background-color: #A9F5F2;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	list-style-type: none;
+	padding-left: 20px;
+}
+li:hover{
+	background-color: blue;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+.gatos{
+background-color: #F6CEF5; 
+}
+.inf_personal h1{
+	text-align: center;
+	
+	padding:30px; 
+}
+.parrafo_lore{
+	border: solid red;
+	display: inline;
+	position: absolute;
+	top: 300px;
+	left: 250px;
+}
+.parrafo{
+	display: inline;
+	position: absolute;
+	top: 150px;
+	left: 283px;
+}
